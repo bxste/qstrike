@@ -24,6 +24,8 @@ Tailwind CSS
 Axios for API requests
 
 ## Running the App
+### Prerequisites
+
 ### `npm start`
 or
 ### `yarn start`
