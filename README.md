@@ -1,10 +1,11 @@
-# Getting Started with Create React App
+# Color Preview App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application allows users to browse a list of colors fetched from an API and preview each color's details in a separate preview section.
 
-## Available Scripts
-
-In the project directory, you can run:
+Features
+Display a list of colors with their names and preview buttons.
+Clicking on a preview button shows detailed information about the selected color in a separate preview section.
+Dynamically change the background color of the preview section based on the selected color.
 
 ### `npm start`
 
