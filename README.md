@@ -4,7 +4,9 @@ This application allows users to browse a list of colors fetched from an API and
 
 ## Features
 Display a list of colors with their names and preview buttons.
+
 Clicking on a preview button shows detailed information about the selected color in a separate preview section.
+
 Dynamically change the background color of the preview section based on the selected color.
 
 ### `npm start`
