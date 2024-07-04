@@ -14,7 +14,7 @@ export const fetchColors = async () => {
     // Assuming the API response contains colors nested inside a 'colors' key
     return response.data.colors || []; // Return the 'colors' array from the response, or an empty array if not found
   } catch (error) {
-    console.error('Error fetching colors:', error); // Log any errors that occur during the fetch operation
-    return []; // Return an empty array if fetching fails
+    console.error('Error fetching colors:', error);
+    return []; 
   }
 };
