@@ -23,8 +23,12 @@ Tailwind CSS
 
 Axios for API requests
 
-## Running the App
+## Installation
 ### Prerequisites
+Node.js installed on your machine
+
+1. Clone the repository from GitHub:
+   ### git clone <repository-url>
 
 ### `npm start`
 or
