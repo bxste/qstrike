@@ -15,7 +15,7 @@ const ColorPreview = ({ selectedColor }) => {
       style={{
         // Set background color dynamically based on the selected color's hex code
         backgroundColor: `#${hex_code}`,
-        // Set text color to a contrasting color based on the background color
+
         color: getContrastingTextColor(hex_code),
       }}
     >
