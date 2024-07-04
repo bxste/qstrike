@@ -4,9 +4,9 @@ import { fetchColors } from '../services/colorsService';
 const ColorList = ({ onColorSelect }) => {
   // State to store the list of colors
   const [colors, setColors] = useState([]);
-  // State to manage loading state
+
   const [loading, setLoading] = useState(true);
-  // State to manage error state
+
   const [error, setError] = useState(null);
 
   // useEffect to fetch colors when the component mounts
@@ -22,10 +22,8 @@ const ColorList = ({ onColorSelect }) => {
           throw new Error('Invalid data format');
         }
       } catch (error) {
-        // Set error state if fetching fails
         setError('Failed to fetch colors');
       } finally {
-        // Set loading to false after fetching is done
         setLoading(false);
       }
     };
@@ -33,12 +31,10 @@ const ColorList = ({ onColorSelect }) => {
     fetchAndSetColors();
   }, []);
 
-  // Display loading message while fetching data
   if (loading) {
     return <div>Loading...</div>;
   }
 
-  // Display error message if fetching data fails
   if (error) {
     return <div>{error}</div>;
   }
