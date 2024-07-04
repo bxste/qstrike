@@ -28,7 +28,19 @@ Axios for API requests
 Node.js installed on your machine
 
 1. Clone the repository from GitHub:
-   ### git clone <repository-url>
+   ### `git clone <repository-url>`
+   
+2. Navigate into the project directory::
+   ### `cd color-preview-app`
+
+3. Install dependencies using npm or yarn:
+   ### `npm install`
+   or
+   ### `yarn install`
+
+## Running the App
+
+To run the application locally, use the following command:
 
 ### `npm start`
 or
